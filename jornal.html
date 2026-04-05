@@ -2,118 +2,102 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Jornal Vintage</title>
+  <title>Jornal Atual Nordeste</title>
   <link rel="stylesheet" href="jornal.css">
 </head>
 <body>
 
 <header>
-  <h1>JORNAL DIÁRIO</h1>
-  <p>Edição Especial • 1920</p>
+  <h1>Jornal Atual Nordeste</h1>
+  <p>Informação com credibilidade</p>
 </header>
 
 <nav>
-  <a href="#">Home</a>
-  <a href="#">Política</a>
-  <a href="#">Economia</a>
-  <a href="#">Mundo</a>
-  <a href="#">Esportes</a>
-  <a href="#">Cultura</a>
+  <ul>
+    <li><a href="#noticias">Notícias</a></li>
+    <li><a href="#mais-lidas">Mais Lidas</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+  </ul>
 </nav>
 
-<!-- BREAKING NEWS -->
-<div class="breaking">
-  ⚡ URGENTE: Evento histórico movimenta toda a cidade nesta manhã!
-</div>
+<!-- DESTAQUE -->
+<section class="destaque">
+  <h2>⚡ URGENTE: Evento histórico movimenta Recife</h2>
+</section>
 
-<div class="container">
+<main>
 
-  <!-- COLUNA PRINCIPAL -->
-  <main>
+  <!-- NOTÍCIA PRINCIPAL -->
+  <section id="noticias" class="principal">
+    <h2>Grande Evento Marca a Semana</h2>
+    <img src="https://picsum.photos/800/300" alt="">
+    <p>
+      A cidade recebeu milhares de visitantes para um evento histórico.
+      Especialistas afirmam que o impacto será significativo na economia local.
+    </p>
+  </section>
 
-    <section class="main-news">
-      <h2>Grande Evento Marca a História</h2>
-      <img src="https://picsum.photos/900/400" alt="">
-      <p>
-        Uma multidão se reuniu no centro para testemunhar um acontecimento sem precedentes.
-        Autoridades locais destacam o impacto duradouro na sociedade.
-      </p>
-    </section>
+  <!-- LISTA -->
+  <section id="mais-lidas">
+    <h2>🔥 Mais Lidas</h2>
+    <ul class="lista">
+      <li>Economia cresce acima do esperado</li>
+      <li>Evento histórico impressiona população</li>
+      <li>Nova descoberta científica</li>
+    </ul>
+  </section>
 
-    <!-- ÚLTIMAS NOTÍCIAS -->
-    <section class="news-list">
-      <h2>Últimas Notícias</h2>
-
-      <article>
-        <h3>Economia cresce acima do esperado</h3>
-        <p>Relatórios indicam avanço significativo no comércio local.</p>
-      </article>
-
-      <article>
-        <h3>Nova descoberta científica surpreende especialistas</h3>
-        <p>Pesquisadores revelam inovação que pode mudar o futuro.</p>
-      </article>
-
-      <article>
-        <h3>Clássico esportivo termina em goleada</h3>
-        <p>Torcida comemora vitória histórica do time da cidade.</p>
-      </article>
-    </section>
-
-    <!-- SEÇÕES -->
-    <section class="grid-news">
-      <div>
-        <h2>Política</h2>
-        <p>Debates intensos marcam decisões importantes no governo.</p>
-      </div>
-
-      <div>
-        <h2>Economia</h2>
-        <p>Mercado reage positivamente às novas medidas.</p>
-      </div>
-
-      <div>
-        <h2>Mundo</h2>
-        <p>Eventos internacionais influenciam o cenário global.</p>
-      </div>
-
-      <div>
-        <h2>Esportes</h2>
-        <p>Competições atraem multidões e movimentam apostas.</p>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- SIDEBAR -->
-  <aside>
-
+  <!-- CARDS -->
+  <section class="grid">
     <div class="card">
-      <h3>🔥 Mais Lidas</h3>
-      <ul>
-        <li>Evento histórico impressiona população</li>
-        <li>Economia dispara nesta semana</li>
-        <li>Descoberta científica inédita</li>
-      </ul>
+      <h3>Política</h3>
+      <p>Debates importantes movimentam o governo.</p>
     </div>
 
     <div class="card">
-      <h3>🌤 Clima</h3>
-      <p>Recife: 28°C</p>
-      <p>Sol com poucas nuvens</p>
+      <h3>Esportes</h3>
+      <p>Time local vence campeonato com goleada.</p>
     </div>
 
     <div class="card">
-      <h3>🕰 Curiosidades</h3>
-      <p>Você sabia? Jornais antigos eram impressos manualmente!</p>
+      <h3>Economia</h3>
+      <p>Mercado apresenta crescimento contínuo.</p>
     </div>
+  </section>
 
-  </aside>
+  <!-- TABELA -->
+  <section id="agenda">
+    <h2>📅 Agenda de Eventos</h2>
 
-</div>
+    <table>
+      <tr>
+        <th>Evento</th>
+        <th>Data</th>
+        <th>Local</th>
+      </tr>
+      <tr>
+        <td>Feira Cultural</td>
+        <td>10/04</td>
+        <td>Centro</td>
+      </tr>
+      <tr>
+        <td>Jogo Final</td>
+        <td>12/04</td>
+        <td>Estádio</td>
+      </tr>
+      <tr>
+        <td>Show Musical</td>
+        <td>15/04</td>
+        <td>Praia</td>
+      </tr>
+    </table>
+
+  </section>
+
+</main>
 
 <footer>
-  <p>&copy; 1920 Jornal Diário - Todos os direitos reservados</p>
+  <p>📍 Recife - PE | © 2026 Jornal Atual Nordeste</p>
 </footer>
 
 </body>
